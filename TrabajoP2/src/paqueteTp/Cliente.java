@@ -1,0 +1,23 @@
+package paqueteTp;
+
+public class Cliente {
+	
+	private int dni;
+	private String nombre , telefono;
+	
+	
+	public Cliente(int dni, String nombre, String telefono) {
+		
+		this.dni = dni;
+		this.nombre = nombre;
+		this.telefono = telefono;
+	}
+
+
+	public int getDni() {
+		return dni;
+	}
+	
+	
+
+}
